@@ -2,7 +2,6 @@
 * 验证input输入是否为数字
 */
 function testInput(str){
-	// 哼哼还没写！
 	var re = /\d+(\.)?\d/;
 	return re.test(str);
 }
